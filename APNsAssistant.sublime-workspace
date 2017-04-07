@@ -1,0 +1,393 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"script",
+				"script"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lowercase",
+				"Convert Case: Lower Case"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"box",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/me/Documents/git/APNsAssistant"
+	],
+	"file_history":
+	[
+		"/Users/me/Documents/git/APNsAssistant/README.md",
+		"/Users/me/Documents/git/APNsAssistant/app/app.livecodescript",
+		"/Users/me/Documents/git/APNsAssistant/app/ui/main/behaviors/Send Push Notification/button Send Behavior.livecodescript",
+		"/Users/me/Documents/git/APNsAssistant/app/app.yml",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/ui/main/behaviors/button Get Punches behavior.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/libraries/CRON.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/ui/stackBehavior.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/ui/main/behaviors/button Generate CSV Behavior.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/ui/main/behaviors/Button Create some punches Behavior.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/libraries/dateTime.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/app.yml",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/ui/main/behaviors/Main cardBehavior.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/libraries/database.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/standalone.livecode",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/app.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/Archive/pre v. 2.0/Mikey Library README:USED BY.rtf",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/libraries/debugging.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/libraries/mikey's Library.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/libraries/debugging_files/errlog.txt",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/kernerban2 urickBarfList.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/kernerban2StackScript.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/levure/framework/levure.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/ui/main/behaviors/card_behavior.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/ui/sample_window/behaviors/card_behavior.livecodescript",
+		"/Users/me/Documents/git/levure/framework/levure.livecodescript",
+		"/Users/me/Documents/git/phxDropboxLib/phxDropboxLib.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/app/libraries/phxDropboxLib/phxDropboxLib.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/Current/mikey's Library.livecodescript",
+		"/Users/me/Documents/git/levure/sample_app/app.yml",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeserver/timeserver.sublime-project",
+		"/Users/me/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/me/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeclock/timeclock.sublime-project",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeclock/.gitignore",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeclock/app/app.yml",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/PR:HR/IPRHR/timekeeping/timeclock/your_application_folder/app.yml",
+		"/Users/me/Documents/git/timeclock/levure/timeclock/app.yml",
+		"/Users/me/Documents/git/levure/framework/helpers/preferences/preferences.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ UI:GUI:Backgrounds:Icons/Batch-master/SVG/address-book-2.svg",
+		"/Users/me/Documents/git/livecode-ide/Toolset/palettes/menubar/revmenubar.livecodescript",
+		"/Users/me/Documents/git/livecode-ide/Toolset/libraries/revidelibrary.8.livecodescript",
+		"/Users/me/Documents/git/livecode/ide/Toolset/libraries/revidelibrary.8.livecodescript",
+		"/Users/me/Desktop/LiveCode Business 8.1.3.app/Contents/Tools/Toolset/libraries/revidelibrary.8.livecodescript",
+		"/Applications/LiveCode Business 8.1.3.app/Contents/Tools/Toolset/libraries/revidelibrary.8.livecodescript",
+		"/Users/me/Desktop/revidelibrary.8.livecodescript",
+		"/Users/me/Documents/git/livecode-ide/Toolset/libraries/revidelibrary.livecodescript",
+		"/Users/me/Documents/git/livecode/ide/Toolset/libraries/revidelibrary.livecodescript",
+		"/Users/me/Desktop/scan.livecodescript",
+		"/Users/me/Documents/git/timeclock/.gitignore",
+		"/Users/me/Documents/git/Library/database.livecodescript",
+		"/Users/me/Documents/git/timeclock/sample_app/libraries/myCustomLibrary.livecodescript",
+		"/Users/me/Documents/git/timeclock/sample_app/app.yml",
+		"/Users/me/Documents/git/timeclock/levure/framework/levure.livecodescript",
+		"/Users/me/Documents/git/timeclock/levure/sample_app/components/myapp/behaviors/myapp_view.livecodescript",
+		"/Users/me/Library/Application Support/Sublime Text 3/Packages/LiveCode/livecode-indent.tmpreferences",
+		"/Users/me/Desktop/test.livecodescript",
+		"/Users/me/Documents/git/livecode-sublimetext/livecode-indent regex rationale",
+		"/Users/me/Documents/git/livecode-sublimetext/livecode-indent.tmpreferences",
+		"/Users/me/Documents/git/atom-language-livecode/settings/language-livecode.cson",
+		"/Users/me/Documents/git/livecode-sublimetext/README.md",
+		"/Users/me/Desktop/indent.livecodescript",
+		"/Users/me/Desktop/crap.html",
+		"/Users/me/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/me/Library/Application Support/Sublime Text 3/livecode-indent.tmpreferences",
+		"/Users/me/Documents/git/sublime-livecode/README.md",
+		"/Users/me/Documents/git/timeclock/timeclock.sublime-project",
+		"/Users/me/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/me/Desktop/ytest.livecodescript",
+		"/Users/me/Documents/git/levure/README.md",
+		"/Users/me/Documents/git/levure/sample_app/app.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/database.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/cron/Crontab.sql",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/cron/CRON.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/mikey's Library.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/libJSON.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/google sheets.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/dropbox/phxdropboxlib.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/dropbox/dropbox.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/debugging.livecodescript",
+		"/Users/me/Google Drive/My LiveCode/ Mikey Projects/mikey's Libraries/v. 3.0/dateTime.liveCodeScript",
+		"/Users/me/Desktop/google handlers.livecodescript",
+		"/Users/me/Documents/git/dropboxapi_v2/dropboxapi_2.livecodescript",
+		"/Users/me/Documents/git/csvToText/csvToArray.livecodescript",
+		"/Users/me/Documents/git/csvToText/csvToTab.livecodescript",
+		"/Users/me/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/me/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dateItems",
+			"convert",
+			"dateitems",
+			"theDate",
+			"query",
+			"debugx",
+			"seconds",
+			"query(",
+			"query (",
+			"query(",
+			"seconds",
+			"history",
+			"timestamp",
+			"jsontoarray",
+			"json",
+			"people",
+			"peopleempl`",
+			"people",
+			"breakpoint",
+			"\"punches\"",
+			"secondsinaweek",
+			"secondsinaday",
+			"dbname",
+			"item",
+			"itemdelimiter",
+			"next repeat",
+			"debugx",
+			"dropboxdirectory",
+			"clockarchivepath",
+			"clockname",
+			"clockid",
+			"mikeyAppDataFolder",
+			"mikeyApp",
+			"mikeyappdatafolder",
+			"mikeytofolder",
+			"tofolder",
+			"mikey",
+			"mikeyto",
+			"mikey",
+			"mikeyto",
+			"mikeyfrom",
+			"logmode",
+			"logLevel",
+			"logMode",
+			"log",
+			"local",
+			"global",
+			"loglevel",
+			"setuplogging",
+			"transaction",
+			"fail",
+			"handleq",
+			"setuplogging",
+			"errorfile",
+			"libraryStack",
+			"script",
+			"setup",
+			"errorlog",
+			"error",
+			"logFile",
+			"logMode",
+			"filespath",
+			"longnameof",
+			"mobile",
+			"v.",
+			"yml",
+			"file",
+			"inmenu",
+			"inmen",
+			"into spluginsA",
+			"revideplugins",
+			"cREVLoadInfo[\"inMenu\"]",
+			"inmenu",
+			"cREVLoadInfo[\"inMenu\"]",
+			"plug",
+			"on updateClock",
+			"updateclock",
+			"#</v.",
+			"decreaseindentpattern",
+			"\\s",
+			"increaseindent",
+			"increaseindentpattern",
+			"indent",
+			"\"",
+			"Query",
+			"query",
+			"Query",
+			"query",
+			"3.0",
+			"3.0.0",
+			"log"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"employees",
+			"mikeyApplicationDataFolder"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "APNsAssistant.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/git/APNsAssistant/APNSAssistant.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"query",
+				"query"
+			],
+			[
+				"",
+				"Crontab"
+			]
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

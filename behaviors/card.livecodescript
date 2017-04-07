@@ -1,0 +1,2 @@
+script "APNsAssistant Card Behavior"
+
