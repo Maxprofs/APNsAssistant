@@ -14,9 +14,11 @@ on mouseUp
    #<sanity check and convert for the send routine>
       if field "Token" is empty then
          answer "Error:  No device token specified"
+         exit mouseUp
+      end if #field "Token" is empty
 
-         put the label of button "Sound" into theSound
-         if theSound is "None" then put empty into theSound
+      put the label of button "Sound" into theSound
+      if theSound is "None" then put empty into theSound
    #</sanity check and convert for the send routine>
 
    pushSend tFolder, field "Token", field "Alert", the label of button "Badge", theSound, field "payload"
