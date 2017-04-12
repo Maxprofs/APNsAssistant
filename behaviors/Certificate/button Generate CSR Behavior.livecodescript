@@ -38,7 +38,7 @@ on mouseUp
 
       if it is empty then
          answer "It looks like everything went OK - you should now have private & public keys and a certifcate signing request file in the target folder." & LF & LF & \
-         "You now have to enable push notifications for your app via the iOS provisioning portal." with "OK"
+         "You now have to enable push notifications for your app via the iOS provisioning portal."
       else #not empty
          put it into tOutput
          answer "It looks like something went wrong!" & LF & LF & tOutput

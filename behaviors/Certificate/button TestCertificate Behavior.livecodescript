@@ -24,11 +24,11 @@ on mouseUp
       if tOutput is empty then
          answer "The target folder should now also contain 'AppCert.pem' and 'AppCertKey.pem'." & LF & LF & \
          "Now to test communication using the certificate." & LF & LF & \
-         "If everything works, you'll see the conversation between your machine and the Apple server." with "OK"
+         "If everything works, you'll see the conversation between your machine and the Apple server."
          get shell("openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert AppCert.pem -key PrivateKey.pem")
          answer it
       else #tOutput is not empty
-         answer"It looks like there was a problem!" & LF & LF & tOutput with "OK"
+         answer"It looks like there was a problem!" & LF & LF & tOutput
       end if #tOutput is empty
    end if #it is not empty
    

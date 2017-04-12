@@ -4,7 +4,7 @@ on mouseUp
    #<check the target folder exists>
       put fld "Folder" into tFolder
       if there is not a folder tFolder then
-         answer "Please select the target folder with your certificate files" with "OK"
+         answer "Please select the target folder with your certificate files"
          set the menuHistory of btn "Menu" to 1
          focus on fld "Folder"
          exit mouseUp

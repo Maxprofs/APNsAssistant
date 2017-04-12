@@ -1,4 +1,4 @@
-script "pushSend"
+﻿script "pushSend"
 
 /* 
 send folderPath,deviceToken,{alert},{badge},{playSound},{payload}
@@ -14,6 +14,8 @@ In that case, when you launch the app, check the badge.  If it's set, call home.
 2) If the app is open, ios will not set the badge.  That's an ios thing, not an LC thing.
 */
 on pushSend folderPath, deviceToken, alert, badge, playSound, payload
+
+   log "pushSend folderPath:"&&folderPath&", deviceToken:"&&deviceToken&", alert:"&&alert&", badge:"&&badge&", playSound:"&&playSound&", payload:"&&payload #debugx
 
    if there is not a folder folderPath then return "ERROR:  Folder does not exist" for error
 
@@ -37,7 +39,7 @@ on pushSend folderPath, deviceToken, alert, badge, playSound, payload
       repeat for each item tCode in "0,0,32"
          put numToChar(tCode) after tBinary
       end repeat #for each item tCode in "0,0,32"
-      put binaryEncode("H*", fld "Token") after tBinary
+      put binaryEncode("H*", deviceToken) after tBinary
       put binaryEncode("n", length(tNotification)) after tBinary
       put tNotification after tBinary
    #</build the binary notification to send>
@@ -46,8 +48,9 @@ on pushSend folderPath, deviceToken, alert, badge, playSound, payload
    #<write the binary to a file and send via openssl>
       put tBinary into URL("binfile:Notification.bin")
       get shell("cat Notification.bin | openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert AppCertKey.pem")
-      return "Result after attempting to send notification to device;" & LF & LF & it for value
+      return ("Result after attempting to send notification to device;" & LF & LF & it) for value
    #</write the binary to a file and send via openssl>
    
+   log "pushSend achieved" #debugx
    set the folder to tSavedFolder
 end pushSend
